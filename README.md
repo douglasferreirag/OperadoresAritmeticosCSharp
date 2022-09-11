@@ -1,2 +1,1 @@
-# OperadoresAritmeticosCSharp
-Repositório do curso de Operadores Aritméticos em C#
+# Repositório do curso de Operadores Aritméticos em C#
