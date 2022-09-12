@@ -3,6 +3,7 @@ using OperadoresAritmeticosCSharp.Models;
 
 Calculadora  calc = new Calculadora();
 
+
 // calc.Somar(10,30);
 // calc.Subtrair(10,50);
 // calc.Multiplicar(15,45);
@@ -12,20 +13,20 @@ Calculadora  calc = new Calculadora();
 // calc.Cosseno(30);
 // calc.Tangente(30);
 
-int numeroIncremento = 10;
-Console.WriteLine(numeroIncremento);
-Console.WriteLine("Incrementando o 10");
-// numero = numero + 1;
-numeroIncremento++;
-Console.WriteLine(numeroIncremento);
+// int numeroIncremento = 10;
+// Console.WriteLine(numeroIncremento);
+// Console.WriteLine("Incrementando o 10");
+// // numero = numero + 1;
+// numeroIncremento++;
+// Console.WriteLine(numeroIncremento);
 
-int numeroDecremento = 20;
-Console.WriteLine("Decrementando o 20");
-// numero = numero + 1;
-numeroDecremento--;
-Console.WriteLine(numeroDecremento);
+// int numeroDecremento = 20;
+// Console.WriteLine("Decrementando o 20");
+// // numero = numero + 1;
+// numeroDecremento--;
+// Console.WriteLine(numeroDecremento);
 
-
+calc.RaizQuadrada(9);
 
 
 
