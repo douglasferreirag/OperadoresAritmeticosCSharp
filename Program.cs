@@ -1,7 +1,37 @@
 ﻿using ExemploFundamentos.Models;
 using OperadoresAritmeticosCSharp.Models;
 
-Calculadora  calc = new Calculadora();
+
+int [] arrayInteiros = new int[3];
+arrayInteiros [0] = 72;
+arrayInteiros [1] = 64;
+arrayInteiros [2] = 50;
+//arrayInteiros[3] = 10;
+
+for(int contador = 0; contador < 3; contador ++)
+  Console.WriteLine($"Posição Nº {contador} - {arrayInteiros[contador]}");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//Calculadora  calc = new Calculadora();
 
 
 // calc.Somar(10,30);
@@ -26,7 +56,7 @@ Calculadora  calc = new Calculadora();
 // numeroDecremento--;
 // Console.WriteLine(numeroDecremento);
 
-calc.RaizQuadrada(9);
+//calc.RaizQuadrada(9);
 
 
 
